@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-t": "test-open:open",
+    "ctrl-alt-T": "test-open:openModule"
+  }
+}

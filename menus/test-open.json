@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Open test-open",
+        "command": "test-open:open"
+      },
+      {
+        "label": "OpenModule test-open",
+        "command": "test-open:openModule"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "test-open",
+          "submenu": [
+            {
+              "label": "Open",
+              "command": "test-open:open"
+            },
+            {
+              "label": "openModule",
+              "command": "test-open:openModule"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
